@@ -1,7 +1,7 @@
 
 #define SIZE 512
 #define PERIOD 100
-#define AVERAGE false
+#define AVERAGE true
 
 long data[SIZE]; //Armazena os dados convertidos
 long acc;   //Acumulador
