@@ -3,8 +3,8 @@
 #define PERIOD 100
 #define AVERAGE true
 
-long data[SIZE]; //Armazena os dados convertidos
-long acc;   //Acumulador
+long data[SIZE];          //Armazena os dados convertidos
+long acc;                 //Acumulador
 unsigned int ctn_in = 0;  //Contador de entrada de dados
 unsigned int ctn_out = 1; //Contador de saída de dados
 float avg;                //Média dos valores lidos
@@ -17,9 +17,9 @@ void setup() {
   ti = millis();
 }
 
-
 void loop() {
 
+  // Medidas com média móvel
   if (AVERAGE == true){
     data[ctn_in] = analogRead(A11);
     acc += data[ctn_in++] - data[ctn_out++];
@@ -32,6 +32,7 @@ void loop() {
       ti = millis();
     }
   }
+  // Medidas sem média móvel
   else{
     tf = millis();
     if (tf - ti >= PERIOD){      
