@@ -11,7 +11,7 @@ Como o tiva é muito mais poderoso que o arduino, alguns cuidados devem ser toma
 3. Abra a aplicação *interface.vi* localizada na pasta */interface_labview*;
 4. Selecione a porta de comunicação onde o TIVA C está conectado v(ocê pode verificar a porta no gerenciador de dispositivos, caso esteja utilizando Windows);
 5. Clique no botão Run do Labview (botão com a seta para a direita);
-3. O programa estará rodando, de acordo com a
+3. O programa estará rodando, de acordo com a Figura 1.
 
 Figura 1 - Interface no labview
 -------------------------------
