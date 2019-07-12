@@ -14,5 +14,5 @@ Como o tiva é muito mais poderoso que o arduino, alguns cuidados devem ser toma
 3. O programa estará rodando, de acordo com a Figura 1.
 
 |Figura 1 - Interface no labview|
--------------------------------
+|-------------------------------|
 |![Interface](./figuras/interface.png)|
